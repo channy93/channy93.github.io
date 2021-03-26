@@ -1,8 +1,12 @@
-layout title date blurb og_image 
-post live_study01 
-2021-03-26 10:10:40 -0700 
-A look at an example post using Bay Jekyll theme. 
-/assets/img/content/post-example/Banner.jpg <img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
+---
+layout: post
+title:  "••2주차 과제: 자바 데이터 타입, 변수 그리고 배열"
+date:   2021-03-26 10:10:40
+blurb: "A look at an example post using Bay Jekyll theme."
+og_image: /assets/img/content/post-example/Banner.jpg
+---
+<br />
+
 
 ### - 프리미티브 타입 종류와 값의 범위 그리고 기본 값
 

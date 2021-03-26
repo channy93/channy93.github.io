@@ -3,9 +3,8 @@ layout: post
 title:  "••2주차 과제: 자바 데이터 타입, 변수 그리고 배열"
 date:   2021-03-26 10:10:40
 blurb: "A look at an example post using Bay Jekyll theme."
-og_image: /assets/img/content/post-example/Banner.jpg
+og_image: 
 ---
-<img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 <br />
 

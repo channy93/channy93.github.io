@@ -1,0 +1,99 @@
+layout title date blurb og_image 
+post live_study01 
+2021-03-26 10:10:40 -0700 
+A look at an example post using Bay Jekyll theme. 
+/assets/img/content/post-example/Banner.jpg <img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
+
+### - 프리미티브 타입 종류와 값의 범위 그리고 기본 값
+
+> **프리미티브 타입 : 프리미티브 타입은 메모리 공간에 직접 데이터를 담는 변수**
+  
+  
+    > 정수 타입
+      >  byte (1byte, -128 ~ 127) - 기본값 0
+      >  short (2byte, -32768 ~ 32767) - 기본값 0
+      >  int (4byte, -2147483648 ~ 2147483647) - 기본값 0
+      >  long (8byte, 2.225074e-308~1.797693e+308) - 기본값 0L
+      >  char (2byte, -32768 ~ 32767) - 기본값 '\u0000'
+
+    > 부동소수점 타입
+      >  float (4byte, -2,147,483,648 ~ 2,147,483,647) - 기본값 0.0F
+      >  double (8byte, 2.225074e-308~1.797693e+308) - 기본값 0.0
+
+    > 논리 타입
+      >  boolean (1byte, true or false) - 기본값 false
+
+### - 프리미티브 타입과 레퍼런스 타입
+
+> **프리미티브 타입**
+
+      > 메모리 공간(Stack)에 직접 데이터를 담는 변수
+      > 기본값이 있기때문에 NULL값은 존재하지 않는다.
+
+> **레퍼런스 타입**
+
+      > 메모리 공간에 다른곳을 참조하는 주소값을 담는 데이터 타입
+      > class, interface, array, enum
+
+### - 리터럴
+
+**> 변수에 넣는 변하지 않는 데이터**
+
+> 1, 100, 309, "abcd"... 과 같이 변수에 저장되는 데이터를 의미
+
+### - 변수 선언 및 초기화하는 방법
+
+_> 변수 선언 : (자료형) 변수이름_
+
+> ex) int num  , String str ;...
+
+_> 변수 초기화 : (변수이름) = 초기화값_
+
+> ex) int num = 3; String str = "abcd"; ....
+
+
+### - 변수의 스코프와 라이프타임
+
+**> 변수의 스코프 : 변수에 접근하거나 접근할 수 있는 유효 범위/영역으로 일반적으로 변수가 선언된 코드내 블록( {  } )에서만 액세스 가능**
+
+
+**> 변수의 라이프타임 : 변수가 메모리에서 살아있는 기간**
+
+> instance 변수는 객체가 메모리에 남을때까지가 라이프타임
+
+> class 변수는 프로그램이 끝날때까지 또는 클래스가 메모리에 로드 되는 동안이 라이프타임
+
+
+### - 타입 변환, 캐스팅 그리고 타입 프로모션
+
+**>  타입 변환 : 변수 또는 상수의 타입을 다른 타입으로 변환 (형변환)**
+
+> ex) (float)int_num, (long)short_num...
+
+_> 캐스팅 (명시적 형 변환) : 큰 데이터 타입에서 자긍ㄴ 데이터 타입으로 형 변환_
+
+> (float)double_num, (short)int_num...
+
+_> 프로모션 (자동/묵시적 형변환) : 작은 데이터 타입에서 큰 데이터 타입으로 형 변환_
+
+> (double)float_num, (int)short_num...
+
+### - 1차 및 2차 배열 선언하기
+
+> 1차 배열 선언 : int[] intArr = new int[3], double[] doubleArr = {0.1, 0,2}, String[] strArr = new String[5]
+
+> 2차 배열 선언 : int[][] intArr = new int[2][3], double[][] doubleArr = {{0.1, 0.2},{1.1,1.2}}, String[][] strArr = new String[4][6]
+
+
+### - 타입 추론, var
+
+**> 타입 추론 : 변수의 타입을 명시적으로 적어주지 않고도 컴파일러가 알아서 이 변수의 타입을 대입된 리터럴로 추론하는 것. (기존의 generic, lambda에서도 가능)**
+
+_> 코드량을 줄일 수 있고, 코드의 가독성을 높일 수 있다._
+
+**> var : 타입추론을 지원해주는 키워드로 JAVA10부터 사용이 가능하며, 이 키워드를 사용 시 local variable이면서 선언과 동시에 initializer가  필수적이다.**
+
+> var str = "I learing JAVA Programming"; => 타입을 명시하지않고 var키워드를 사용하여 컴파일러가 str변수가 String 타입임을 추론할 수 있도록 한다.
+
+> var 키워드는 generic(<>) 키워드와 동시에 사용이 불가.
+ 

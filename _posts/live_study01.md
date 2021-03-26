@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  •1주차 과제: JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가
+title:  live_study01
 date:   2021-03-26 10:00:40
 blurb: "A look at an example post using Bay Jekyll theme."
 og_image:
 ---
+<br />
+
+<br />
+### •1주차 과제: JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가
 <br />
 
 <br />

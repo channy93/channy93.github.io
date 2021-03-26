@@ -1,6 +1,6 @@
 layout	title	date	blurb	og_image
 post
-Post example
+live_study01
 2021-03-26 10:00:40 -0700
 A look at an example post using Bay Jekyll theme.
 /assets/img/content/post-example/Banner.jpg

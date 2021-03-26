@@ -13,20 +13,20 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Work
     - name: Blog
+    - name: Whatever
 
 footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
+      value: whdckskc@kakao.com
+      link: mailto:whdckskfc@kakao.com
+    - name: Kakao Talk
+      value: whdckskfc
       link: "#"
   follow:
-    - name: Twitter
+    - name: Instagram
       link: http://twitter.com/YourTwitterUsername
       username: "@YourTwitterUsername"
     - name: Facebook

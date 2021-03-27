@@ -20,25 +20,22 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: whdckskc@kakao.com
-      link: mailto:whdckskfc@kakao.com
+      value: whdckskc2@gmail.com
+      link: mailto:whdckskfc2@gmail.com
     - name: Kakao Talk
       value: whdckskfc
       link: "#"
   follow:
     - name: Instagram
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
+      link: https://www.instagram.com/chanismm93/
+      username: "@chanismm93"
     - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
+      link: http://facebook.com/jongchan93
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: http://linkedin.com/in/jc-park-b6b67b20a
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: RSS
-      link: /feed.xml
+      link: http://github.com/channy93
+
 
 # Build settings
 markdown: kramdown

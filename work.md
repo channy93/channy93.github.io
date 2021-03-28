@@ -5,8 +5,8 @@ slug: /work
 items:
   - title: My Career
     image:
-      src: /assets/img/work/inticube.png
-      alt: inticube
+      src: /assets/img/work/work.png
+      alt: work
     description: Linux/Unix C programmer & Server Engineer, Hansol Inticube
   - title: My Interest
     image:

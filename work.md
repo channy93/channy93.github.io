@@ -1,7 +1,7 @@
 ---
-layout: carrer
-title: Carrer
-slug: /carrer
+layout: work
+title: Work
+slug: /work
 items:
   - title: My Career
     image:

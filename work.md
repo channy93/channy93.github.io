@@ -15,6 +15,6 @@ items:
     description: C server, java, python, AI enginerring, Linux, Docker, Android, ios, mac.. 
 ---
 
-"Career" page is displaying my job career, my interests, my projects.
+"Work" page is displaying my job career, my interests, my projects.
 <br />
 <br />

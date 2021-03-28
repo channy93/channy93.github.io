@@ -15,6 +15,6 @@ items:
     description: C server, java, python, AI enginerring, Linux, Docker, Android, ios, mac.. 
 ---
 
-This is an example of a "Career" page, displaying my job career, my interests, my projects.
+"Career" page is displaying my job career, my interests, my projects.
 <br />
 <br />

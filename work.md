@@ -7,7 +7,8 @@ items:
     image:
       src: /assets/img/work/work.png
       alt: work
-    description: Linux/Unix C programmer & Server Engineer, Hansol Inticube
+    description1: Linux/Unix C programmer & Server Engineer, Hansol Inticube
+    description2: Android Programmer, Hansol Inticube
   - title: My Interest
     image:
       src: /assets/img/work/water.png
